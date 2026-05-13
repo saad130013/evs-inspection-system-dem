@@ -1,0 +1,72 @@
+[
+  {
+    "id": "public-area",
+    "formCode": "HK-F002-A",
+    "name": { "en": "Public Area", "ar": "منطقة عامة" },
+    "riskType": "Public Area",
+    "items": [
+      { "id": "pa-1", "label": "Carpet Clean", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "pa-2", "label": "Floor & Stair & Ceiling Clean", "maxScore": 10, "scores": [10, 7, 3, 0] },
+      { "id": "pa-3", "label": "Floor & Vinyl Shining", "maxScore": 8, "scores": [8, 5, 3, 0] },
+      { "id": "pa-4", "label": "Cleaning Office Furniture, Tables & Chairs", "maxScore": 4, "scores": [4, 3, 1, 0] },
+      { "id": "pa-5", "label": "Chemicals Use", "maxScore": 10, "scores": [10, 7, 3, 0] },
+      { "id": "pa-6", "label": "Bathroom & Public Toilet Clean & Checklist", "maxScore": 7, "scores": [7, 5, 3, 0] },
+      { "id": "pa-7", "label": "Stainless Steel Shining", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "pa-8", "label": "Normal Waste Collect & Disposed", "maxScore": 7, "scores": [7, 5, 3, 0] },
+      { "id": "pa-9", "label": "PPE", "maxScore": 7, "scores": [7, 5, 3, 0] },
+      { "id": "pa-10", "label": "Infection Control Instruction Follow", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "pa-11", "label": "Emergency Respond Time Frame", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "pa-12", "label": "Uniform & ID & Personal Hygiene", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "pa-13", "label": "Cleaning of HK Container & Trolley & Equipment & Tools", "maxScore": 10, "scores": [10, 7, 3, 0] },
+      { "id": "pa-14", "label": "Chemical Store & Safety", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "pa-15", "label": "Adherence for Environment Service Directive", "maxScore": 4, "scores": [4, 3, 1, 0] }
+    ]
+  },
+  {
+    "id": "mid-risk",
+    "formCode": "HK-F002-C",
+    "name": { "en": "Mid Risk Area", "ar": "منطقة متوسطة الخطورة" },
+    "riskType": "Mid Risk Area",
+    "items": [
+      { "id": "mr-1", "label": "Carpet Clean", "maxScore": 3, "scores": [3, 2, 1, 0] },
+      { "id": "mr-2", "label": "Floor & Stair & Ceiling Clean", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "mr-3", "label": "Floor & Vinyl Shining", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "mr-4", "label": "Cleaning Office Furniture, Tables & Chairs", "maxScore": 4, "scores": [4, 3, 1, 0] },
+      { "id": "mr-5", "label": "Chemicals Use", "maxScore": 10, "scores": [10, 7, 3, 0] },
+      { "id": "mr-6", "label": "Bathroom & Public Toilet Clean & Checklist", "maxScore": 7, "scores": [7, 5, 3, 0] },
+      { "id": "mr-7", "label": "Stainless Steel Shining", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "mr-8", "label": "Normal Waste Collect & Disposed", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "mr-9", "label": "PPE", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "mr-10", "label": "Medical Waste Collect & Transport", "maxScore": 10, "scores": [10, 7, 3, 0] },
+      { "id": "mr-11", "label": "Infection Control Instruction Follow", "maxScore": 9, "scores": [9, 6, 3, 0] },
+      { "id": "mr-12", "label": "Emergency Respond Time Frame", "maxScore": 7, "scores": [7, 5, 2, 0] },
+      { "id": "mr-13", "label": "Uniform & ID & Personal Hygiene", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "mr-14", "label": "Cleaning of HK Container & Trolley & Equipment & Tools", "maxScore": 7, "scores": [7, 5, 2, 0] },
+      { "id": "mr-15", "label": "Chemical Store & Safety", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "mr-16", "label": "Adherence for Environment Service Directive", "maxScore": 4, "scores": [4, 3, 1, 0] }
+    ]
+  },
+  {
+    "id": "high-risk",
+    "formCode": "HK-F002-B",
+    "name": { "en": "High Risk Area", "ar": "منطقة عالية الخطورة" },
+    "riskType": "High Risk Area",
+    "items": [
+      { "id": "hr-1", "label": "Floor & Stair & Ceiling Clean", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "hr-2", "label": "Floor & Vinyl Shining", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "hr-3", "label": "Chemicals Use", "maxScore": 12, "scores": [12, 8, 4, 0] },
+      { "id": "hr-4", "label": "Area Clean & Hygiene per Requirement", "maxScore": 12, "scores": [12, 8, 4, 0] },
+      { "id": "hr-5", "label": "Bathroom & Public Toilet Clean & Checklist", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "hr-6", "label": "Stainless Steel Shining", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "hr-7", "label": "Normal Waste Collect & Disposed", "maxScore": 6, "scores": [6, 4, 2, 0] },
+      { "id": "hr-8", "label": "PPE", "maxScore": 7, "scores": [7, 5, 3, 0] },
+      { "id": "hr-9", "label": "Medical Waste Collect & Transport", "maxScore": 10, "scores": [10, 7, 3, 0] },
+      { "id": "hr-10", "label": "Infection Control Instruction Follow", "maxScore": 7, "scores": [7, 5, 2, 0] },
+      { "id": "hr-11", "label": "Emergency Respond Time Frame", "maxScore": 5, "scores": [5, 4, 2, 0] },
+      { "id": "hr-12", "label": "Uniform & ID & Personal Hygiene", "maxScore": 4, "scores": [4, 3, 1, 0] },
+      { "id": "hr-13", "label": "Cleaning of HK Container & Trolley & Equipment", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "hr-14", "label": "Chemical Store & Safety", "maxScore": 5, "scores": [5, 3, 2, 0] },
+      { "id": "hr-15", "label": "Adherence for Environment Service Directive", "maxScore": 4, "scores": [4, 3, 1, 0] }
+    ]
+  }
+]

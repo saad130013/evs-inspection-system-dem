@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #10231f;
+  background: #f5faf8;
+}
+
+body {
+  margin: 0;
+}
+
+[dir="rtl"] {
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+input, select, textarea, button {
+  font: inherit;
+}
+
+button, input, select, textarea {
+  touch-action: manipulation;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #9fc7bd;
+  border-radius: 999px;
+}
+
+@layer components {
+  .meta-th {
+    @apply border border-[#00465c] bg-[#eaf2f5] px-[7px] py-[9px] text-left text-[10px] font-black text-[#003f52];
+  }
+
+  .meta-td {
+    @apply h-[34px] border border-[#00465c] px-[7px] py-[9px] text-[13px] text-slate-950;
+  }
+
+  .table-th {
+    @apply border border-[#a9b8c2] bg-[#23669d] px-[5px] py-[7px] text-center text-[11px] font-black text-white;
+  }
+
+  .sheet-td {
+    @apply border border-[#a9b8c2] px-[5px] py-[6px] align-middle;
+  }
+
+  .sum-th {
+    @apply border border-[#9baab4] bg-[#16496f] px-1 py-[5px] text-center text-[11px] font-black text-white;
+  }
+
+  .sum-td {
+    @apply border border-[#b6c3cc] px-1 py-[6px] text-slate-950;
+  }
+}
+
+@media (pointer: coarse) {
+  button,
+  select,
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  input[type="password"],
+  input[type="text"] {
+    min-height: 40px;
+  }
+
+  .inspection-sheet input,
+  .inspection-sheet select,
+  .inspection-sheet textarea,
+  .inspection-sheet button {
+    min-height: initial;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .inspection-scroll {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .inspection-sheet {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 699px) {
+  .inspection-scroll {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}

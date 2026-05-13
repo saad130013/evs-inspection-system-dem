@@ -1,0 +1,46 @@
+[
+  {
+    "id": "d033e22ae3",
+    "username": "admin",
+    "name": "System Admin",
+    "role": "Admin",
+    "active": true,
+    "assignedLocations": [],
+    "passwordSalt": "demo-admin-salt",
+    "passwordHash": "6ddb241679aed86b9ec4ac1c4d62f87c7b00ba71217fbe6d3dc2bb2bf9c03c18",
+    "createdAt": "2026-05-12T06:39:21.939Z"
+  },
+  {
+    "id": "0f4d09e43d",
+    "username": "supervisor",
+    "name": "EVS Supervisor",
+    "role": "Supervisor",
+    "active": true,
+    "assignedLocations": [],
+    "passwordSalt": "demo-supervisor-salt",
+    "passwordHash": "02669d277fa059cb138d94d04c80748c1897c8e06248fc399199aade3745a3be",
+    "createdAt": "2026-05-12T06:39:22.010Z"
+  },
+  {
+    "id": "84c9f43f73",
+    "username": "inspector",
+    "name": "Demo Inspector",
+    "role": "Inspector",
+    "active": true,
+    "assignedLocations": [],
+    "passwordSalt": "demo-inspector-salt",
+    "passwordHash": "bee4639735b3c281661832e46aa502365c13ff204d01a8f11858a1e63cdd9f61",
+    "createdAt": "2026-05-12T06:39:22.061Z"
+  },
+  {
+    "id": "1a8565a9dc",
+    "username": "manager",
+    "name": "EVS Manager",
+    "role": "Manager",
+    "active": true,
+    "assignedLocations": [],
+    "passwordSalt": "demo-manager-salt",
+    "passwordHash": "812c4bb2836115b44a11c5b76989fdcaf250a55ddb20e47d7939f3b07aa85c87",
+    "createdAt": "2026-05-12T10:00:00.000Z"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "inspectors": [
+    "Layla",
+    "Mohammed",
+    "Fatimah",
+    "Saad"
+  ],
+  "supervisors": [
+    "EVS Supervisor",
+    "Housekeeping Manager"
+  ],
+  "locations": [
+    "KAMC-J Site Management",
+    "HR Department / Personnel",
+    "Main Stores",
+    "Transport & Logistics",
+    "Sari Accommodation",
+    "Contract Department",
+    "ICU 1, 2, 3, 4",
+    "Operation Theater / Day Surgery",
+    "Main Lab & Blood Bank",
+    "X-Ray / Radiology / Endoscopy",
+    "CSSD",
+    "Cardiac Center / KFCC",
+    "Emergency / Admission",
+    "General Wards",
+    "Oncology Wards 22, 23, 24, 25, 27",
+    "Princess Noura Oncology Center",
+    "Labor & Delivery / MFMU",
+    "Rehabilitation & Diabetic Center",
+    "Ambulatory Care Center",
+    "Medical Cities",
+    "National Guard Iskan",
+    "Dialysis Centers",
+    "Remote Clinics",
+    "Social Club / Guest House",
+    "Security Areas / Toxic Center"
+  ],
+  "issueOptions": [
+    "Dust present",
+    "Stain / spill",
+    "Odor",
+    "Missing checklist",
+    "Damaged item",
+    "Unavailable chemical",
+    "Tool unavailable",
+    "Waste not removed",
+    "PPE non-compliance",
+    "Infection control concern"
+  ],
+  "areaCategories": [
+    {
+      "name": "Operation Management & Support",
+      "areas": [
+        "KAMC-J Site Management",
+        "HR Department / Personnel",
+        "Main Stores",
+        "Transport & Logistics",
+        "Sari Accommodation",
+        "Contract Department"
+      ]
+    },
+    {
+      "name": "Housekeeping - Main Hospital",
+      "areas": [
+        "ICU 1, 2, 3, 4",
+        "Operation Theater / Day Surgery",
+        "Main Lab & Blood Bank",
+        "X-Ray / Radiology / Endoscopy",
+        "CSSD",
+        "Cardiac Center / KFCC",
+        "Emergency / Admission"
+      ]
+    },
+    {
+      "name": "Housekeeping - Wards & Specialized Centers",
+      "areas": [
+        "General Wards",
+        "Oncology Wards 22, 23, 24, 25, 27",
+        "Princess Noura Oncology Center",
+        "Labor & Delivery / MFMU",
+        "Rehabilitation & Diabetic Center",
+        "Ambulatory Care Center"
+      ]
+    },
+    {
+      "name": "Housekeeping - Residential & Satellites",
+      "areas": [
+        "Medical Cities",
+        "National Guard Iskan",
+        "Dialysis Centers",
+        "Remote Clinics",
+        "Social Club / Guest House",
+        "Security Areas / Toxic Center"
+      ]
+    }
+  ]
+}

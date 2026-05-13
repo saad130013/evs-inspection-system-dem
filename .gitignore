@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+dist/
+
+# Environment files
+.env
+server/.env
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime storage: keep folder structure only
+storage/*
+!storage/.gitkeep
+!storage/reports/
+!storage/reports/.gitkeep
+!storage/excel/
+!storage/excel/.gitkeep
+!storage/weekly-reports/
+!storage/weekly-reports/.gitkeep
+!storage/monthly-reports/
+!storage/monthly-reports/.gitkeep
+!storage/backups/
+!storage/backups/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
