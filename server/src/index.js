@@ -32,7 +32,7 @@ app.use(cors({
 
     console.log("Blocked CORS Origin:", origin);
 
-    return callback(new Error(`CORS blocked origin: ${origin}`));
+    return callback(null, false);
   },
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
